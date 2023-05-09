@@ -1,0 +1,181 @@
+*{
+    box-sizing: border-box;
+  }
+body{
+    margin: 0;
+    font-family: 'Plain-Light', sans-serif;
+    min-width: 650px;
+}
+
+/* MENIU*/
+ .menu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: #0c8195;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 18px;
+    flex-direction: row;
+    
+ }
+ 
+ .menu-item{
+    margin: 0 20px;
+ }
+
+ .logo img{
+    vertical-align: middle;
+ }
+ 
+ nav a{
+    color: #ffffff;
+    text-decoration: none;
+ }
+ nav a:hover{
+    color: #f1c111;
+ }
+
+ /* _MENIU*/
+
+ .fundal{
+    width: 100%;
+    height: 100vh;
+    background: url(images/fundall.png);
+    background-size: cover;
+    
+ }
+ .content{
+    margin: 150px;
+    color: #ffffff;
+    width: 450px;
+    height: 250px;
+    font-size: 18px;
+ }
+.btn{
+    border-radius: 25px;
+    padding: 15px 20px;
+    margin-top: 10px;
+    border: 1px solid #ffffff;
+    color: #0c8195;
+    background-color: #ffffff;
+    font-size: 18px;
+}
+.btn:hover{
+    color: #ffffff;
+    background-color: #f1c111;
+    border-color: #f1c111;
+}
+
+/* DESPRE */
+
+.despre{
+    
+    text-align: left;
+    width: 530px;
+    height: 336px;
+    margin: auto;
+    
+}
+.header{
+    font-size: 32px;
+}
+strong{
+    color: #f1c111;
+}
+.gri{
+    font-size: 18px;
+    line-height: 1.5em;
+    color: #404040;
+}
+.despre-img{
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+    height: auto;
+    overflow: content-box;
+    width: 530px;
+}
+
+/* QUOTE */
+
+
+.img-female{
+    
+    height: auto;
+    vertical-align: middle;
+    border-style: none;
+    width: 300px;
+    float: left;
+    
+}
+h4{
+    color:#666262;
+    font-size: 20px;
+}
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+   
+    
+}
+
+p{
+    font-size: 28px;
+}
+
+.row{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: #dedede;
+    padding: 15px 5px;
+    
+}
+
+/*FOOTER*/
+
+.flex-row{
+    display: flex;
+    justify-content: space-around;
+    background-color: #15141a;
+    width: 100%;
+    padding: 30px;
+    
+
+}
+
+.small{
+    font-size: 18px;
+    color: #909090;
+}
+.white{
+    color: #ffffff;
+    line-height: 1.5em;
+
+}
+
+
+/*CURSURI*/
+
+.h1-curs{
+    text-align: center;
+    margin: 50px;
+}
+
+.curs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    gap: 20px;
+    margin-bottom: 30px;
+
+}
+.last{
+    margin-bottom: 100px;
+}
